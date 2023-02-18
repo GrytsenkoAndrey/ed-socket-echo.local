@@ -19,7 +19,7 @@ class SendMessageToClientEvent
     /**
      * Create a new event instance.
      */
-    public function __construct(public string $message)
+    public function __construct(public string $message = 'Hello there!')
     {
     }
 
