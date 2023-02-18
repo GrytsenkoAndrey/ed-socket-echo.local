@@ -23,6 +23,10 @@ class SendMessageToClientEvent
     {
     }
 
+    public function broadcastAs() {
+        return 'SendMessageToClientEvent';
+    }
+
     /**
      * Get the channels the event should broadcast on.
      *

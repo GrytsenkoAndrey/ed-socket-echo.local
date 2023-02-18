@@ -34,7 +34,7 @@
 
         </div>
     <script type="module">
-        Echo.channel('server-message').listen('.App\\Events\\SendMessageToClientEvent', (e) => {
+        Echo.channel('server-message').listen('.SendMessageToClientEvent', (e) => {
             alert(e.message);
             console.log(e.message);
         });
